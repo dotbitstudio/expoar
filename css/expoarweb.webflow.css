@@ -10,14 +10,8 @@
   --spark-library--border-default: #00000029;
   --waves-library--color: #f7f9fa;
   --black: black;
+  --elements-webflow-library--neutral--800: #211f54;
   --white: white;
-}
-
-.w-layout-blockcontainer {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .w-layout-grid {
@@ -27,6 +21,13 @@
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -689,7 +690,9 @@
   max-width: 100%;
   height: 17vh;
   max-height: 17vh;
-  margin-bottom: -2px;
+  margin-bottom: 0;
+  display: block;
+  overflow: visible;
 }
 
 .floathero {
@@ -1459,6 +1462,52 @@
   font-size: 25px;
 }
 
+.brix---grid-6-columns-logo-strip {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  place-items: center;
+  display: grid;
+}
+
+.brix---text-300-bold {
+  color: var(--spark-library--white);
+  font-family: "Geometric 415 Bt", sans-serif;
+  font-size: 33px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+.brix---color-neutral-800 {
+  color: var(--elements-webflow-library--neutral--800);
+}
+
+.brix---text-center {
+  text-align: center;
+}
+
+.brix---mg-bottom-48px {
+  margin-bottom: 48px;
+}
+
+.brix---container-default {
+  max-width: 1218px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.brix---section-small {
+  border-radius: 0;
+  padding-top: 0;
+  padding-bottom: 100px;
+  position: relative;
+  top: 0;
+}
+
 @media screen and (max-width: 991px) {
   .spark-line-3.spark-simple-line {
     background-color: var(--spark-library--foreground-interactive);
@@ -1738,6 +1787,20 @@
   .actividadtext {
     font-size: 20px;
   }
+
+  .brix---grid-6-columns-logo-strip {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  .brix---mg-bottom-48px {
+    margin-bottom: 40px;
+  }
+
+  .brix---section-small {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1937,6 +2000,27 @@
     max-width: 250px;
     height: 400px;
     max-height: 400px;
+  }
+
+  .brix---grid-6-columns-logo-strip {
+    grid-column-gap: 72px;
+    grid-row-gap: 32px;
+    grid-template-columns: auto auto;
+    transform: scale(.96);
+  }
+
+  .brix---text-300-bold {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .brix---mg-bottom-48px {
+    margin-bottom: 32px;
+  }
+
+  .brix---section-small {
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 }
 
@@ -2277,9 +2361,33 @@
     height: 500px;
     max-height: 500px;
   }
+
+  .brix---grid-6-columns-logo-strip {
+    grid-column-gap: 48px;
+    grid-row-gap: 32px;
+  }
+
+  .brix---text-300-bold {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .brix---mg-bottom-48px {
+    margin-bottom: 32px;
+  }
+
+  .brix---container-default {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .brix---section-small {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
-#w-node-_7afb46a7-777f-a4bc-f528-c41f55e33baa-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bb7-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bc4-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bd1-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33beb-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bf8-27584a30, #w-node-_608b7bf8-5bc9-1793-a1a6-235107f0ec13-27584a30 {
+#w-node-_7afb46a7-777f-a4bc-f528-c41f55e33baa-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bb7-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bc4-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bd1-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33beb-27584a30, #w-node-_7afb46a7-777f-a4bc-f528-c41f55e33bf8-27584a30, #w-node-ec443341-8793-5d6b-df41-8da6e36f1832-27584a30, #w-node-_608b7bf8-5bc9-1793-a1a6-235107f0ec13-27584a30 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
