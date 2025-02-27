@@ -273,8 +273,8 @@
 .body {
   background-color: var(--spark-library--foreground-interactive-hover);
   color: #f7f9fa;
-  font-family: Calibri, sans-serif;
-  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2rem;
   overflow: visible;
 }
 
@@ -1618,7 +1618,7 @@
   display: flex;
 }
 
-.text-block-6 {
+.quienttt {
   color: var(--spark-library--foreground-interactive-hover);
   text-transform: uppercase;
   max-width: 100%;
@@ -1655,6 +1655,11 @@
 
 .dropdown {
   display: none;
+}
+
+.paraquien {
+  color: var(--spark-library--foreground-interactive-hover);
+  font-family: Montserrat, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -2567,7 +2572,7 @@
     grid-template-columns: 1fr;
   }
 
-  .text-block-6 {
+  .quienttt {
     font-size: 30px;
   }
 }
